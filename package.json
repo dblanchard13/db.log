@@ -1,6 +1,6 @@
 {
   "name": "db.log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
   "dependencies": {
     "colors": "^1.1.2",
     "lodash": "^4.11.2"
-  }
+  },
+  "tonicExampleFile": "example.js"
 }
