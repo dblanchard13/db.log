@@ -28,4 +28,6 @@ Simple Logger for Logging info or errors with contrasting colors and some emojis
 
 ## Config
 
-Logging can be turned off by setting `process.env.loggingOff = true`
+Logging can be turned off by setting <br>
+
+`process.env.loggingOff = true`
