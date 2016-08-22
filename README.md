@@ -17,11 +17,11 @@ Simple Logger for Logging info or errors with contrasting colors and some emojis
 ## Example Usage
 
 ```
-  var log = require('db.log');
+  var log = require('db.log')
 
-  log.info('WILDLY USEFUL INFORMATION!!');
+  log.info('WILDLY USEFUL INFORMATION!!')
 
-  log.error('OH NOES!!');
+  log.error('OH NOES!!')
 ```
 
 ****

@@ -1,5 +1,5 @@
-var log = require('db.log');
+var log = require('db.log')
 
-log.info('It\'s ya boii');
+log.info('It\'s ya boii')
 
-log.error('Oh shit waddup!?');
+log.error('Oh shit waddup!?')
