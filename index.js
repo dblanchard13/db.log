@@ -28,6 +28,23 @@ module.exports = (function(){
       consoleLog.apply(console, args)
     },
 
+    sorry: function() {
+      var tag = '[ 😬  SORRY 😬  ]'.magenta
+      var args = _.toArray(arguments)
+        .map(function(arg) {
+          arg = arg || ''
+          if(typeof arg === 'object') {
+            var string = JSON.stringify(arg, null, 2)
+            return tag + '  ' + string.green
+          }
+          else {
+            return tag + '  ' + arg.green
+          }
+        })
+
+      consoleLog.apply(console, args)
+    },
+
     error: function() {
       var args = _.toArray(arguments)
         .map(function(arg) {
